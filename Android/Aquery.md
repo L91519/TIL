@@ -17,16 +17,12 @@ In Android Menifest.xml, after application tag
               public void callback(String url, JSONObject json, AjaxStatus status) {
                   if(json != null){
                     //successful ajax call, show status code and json content 
-                    Toast.makeText(aq.getContext(), status.getCode() + ":" + json.toString(), Toast.LENGTH_LONG).show();
                   else{
                       //ajax error, show error code
-                      Toast.makeText(aq.getContext(), "Error:" + status.getCode(), Toast.LENGTH_LONG).show();
                   }
               }
           });
   ```
-
-  ​
 
 + Post
 
@@ -35,11 +31,10 @@ In Android Menifest.xml, after application tag
               @Override
               public void callback(String url, JSONObject json, AjaxStatus status) {
                if(json != null) {
-               	//success
-               	Toast.makeText(aq.getContext(), status.getCode() + ":" + json.toString(), Toast.LENGTH_LONG).show();
+               	//successfully complete
                   } 
                 else {
-                      Toast.makeText(aq.getContext(), "Error:" + status.getCode(), Toast.LENGTH_LONG).show();
+                  //:(
                   }
               }
           });
