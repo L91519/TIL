@@ -2,10 +2,10 @@
 
 ## Necessary Permission
 
-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-- <uses-permission android:name="android.permission.INTERNET" />
+- uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+- uses-permission android:name="android.permission.INTERNET" 
 
-In Android Menifest.xml, after application tag
+Tag in Android Menifest.xml, after application tag
 
 ## Aquery.ajax
 
