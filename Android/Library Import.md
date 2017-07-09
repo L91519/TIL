@@ -1,19 +1,20 @@
-# Library Import
+# Ways of importing library
 
-There are two ways of importing libraries in Android
+There are two ways of limporting library.
 
-### First way
+### First
 
 1. Download *.jar file.
-2. Insert *.jar file in libraries/libs.
-3. Find that file in Android Studio and click add as library.
-4. After those followings, check if there is a new senetence such as "compile files *" in gradle.
+2. Place *.jar file to libraries/libs.
+3. Find *.jar file in Android Studio and click add as library.
+4. Check in gradle, and if there's a new sentence such as  'compile file *' successfully imported. XD
 
-### Second way
+### Second
 
-1. Click project structure.
-2. Click new module.
-3. Click import JAR/.AAA package
+1. Click Project Structure.
+2. Click New Module.
+3. Click 'import JAR/.AAA package'.
 4. Look for *.jar file and click finish button.
-5. Dependencies -> '+' button -> Module dependency
+5. Dependencies -> '+' Button -> Module dependency
+
 
