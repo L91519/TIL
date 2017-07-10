@@ -1,5 +1,7 @@
 # ActionBar 
 
+**deprecated :( It was waste of my time**
+
 There are two ways of controlling action bar. 
 
 1. android.app.ActionBar
