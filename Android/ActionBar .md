@@ -1,6 +1,8 @@
 # ActionBar 
 
-**deprecated :( It was waste of my time**
+**deprecated :( It was waste of my time, so instead use toolbar(maybe)**
+
+
 
 There are two ways of controlling action bar. 
 
