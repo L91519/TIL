@@ -4,6 +4,8 @@ This is a open source which helps us in http parsing.
 
 Actually I was only focusing on Aquery because this also can handle http connection and even easier... XD 
 
+And Retrofit depends on OkHttp so though there isn't slient abstaction, we can still make client by using OkHttp Client.
+
 I really didn't wanted to know more about Retrofit but I had to if I wanted to make my project in better way and I'll list down some reasons.
 
 + Easier to handle errors.
