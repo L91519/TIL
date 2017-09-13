@@ -19,11 +19,11 @@ Before using this method, INTERNET permissino in manifest should be written.
 
 ### Interface
 
-#### Call<T>
+#### Call\<T>
 
  calls Retrofit method which sends request to server and returns a response.
 
-<T> : Successful response body type.
+\<T> : Successful response body type.
 
 ### Class
 
@@ -35,5 +35,56 @@ public Retrofit build() : Create Retrofit
 
 #### Retrofit
 
-public <T> create (Class<T> service) : create an implemention of the API endpoints defined by service interface.
+public\<T\> create (Class\<T> service) : create an implemention of the API endpoints defined by service interface.
 
+## Retrofit Ex
+
+https://github.com/fs-opensource/android-retrofit-video
+
+Here is the example of a program which uses retrofit.
+
+This works with ListView widget, but here, I am only gonna explain about 'Main Activity' and client interface
+
+### Client Interface
+
+It's only written : 
+
+```java
+@Get("/users/{user}/repos")
+Call<List<GitHubRepo>> reposForUsers(@Path("user")String user);
+```
+
++ @Path("user") : Since the request is dynamic, by using '@Path' annotation, replace a name in url segment.
+
+
++ reposForUsers : Name of the method.
++ List\<GitHubRepo\> : Responded body type.
+
+### Main Activity
+
+```java
+Call<T>.enqueue
+```
+
++ Asynchronously send the request and notiy callback method.
+
+```java
+GitHubClient client = retrofit.create(GitHubClient.class);
+```
+
++ Implements interface
+
+```java
+Retrofit.Builder builder = new Retrofit.Builder().baseUrl().addConvertedFactory();
+```
+
++ addConvertedFactory : Add converter factory for serialization and deserialization of objects.
+
++ Converter.Factory : 
+
+  + Parament type in addConvertedFactory
+  + Convert object to and from their representation in HTTP. (HTTP에서 표현과 객체를 변환한다.) In fact I don't really understand this sentence but I guess this means that when we have a object in java source, we can convert it suitable to http by using this method.
+
+  ​
+
+  ​
