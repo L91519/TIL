@@ -37,7 +37,7 @@ public Retrofit build() : Create Retrofit
 
 public\<T\> create (Class\<T> service) : create an implemention of the API endpoints defined by service interface.
 
-## Retrofit Ex
+## Retrofit Ex1
 
 https://github.com/fs-opensource/android-retrofit-video
 
@@ -79,12 +79,12 @@ Retrofit.Builder builder = new Retrofit.Builder().baseUrl().addConvertedFactory(
 ```
 
 + addConvertedFactory : Add converter factory for serialization and deserialization of objects.
-
 + Converter.Factory : 
-
   + Parament type in addConvertedFactory
   + Convert object to and from their representation in HTTP. (HTTP에서 표현과 객체를 변환한다.) In fact I don't really understand this sentence but I guess this means that when we have a object in java source, we can convert it suitable to http by using this method.
 
-  ​
+# Reference
 
-  ​
+https://square.github.io/retrofit/2.x/retrofit/index.html?retrofit2/http/Path.html
+
+https://github.com/fs-opensource/android-retrofit-video
