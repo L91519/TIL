@@ -23,6 +23,13 @@ So the difference between cookie and session is that sessino saves a data from s
 
 ## Procedure of keeping cookie session
 
+1. Login in an application(Post data to server) and get Response(I guess it is one of the variable in callback method).
+2. Save recieved cookie data in SharedPreferences.
+3. For every requests that is being held after, bring cookie from SharedPreference and add that data to header.
+   (I don't actually understand if sending header which contains cookie data is necessary for all requests.)
+
+**Details**
+
 
 
 ## Reference
