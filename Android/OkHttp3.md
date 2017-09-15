@@ -16,7 +16,7 @@ The return type of this class is a another object named Response. Let's also kno
 
 ## Interceptor.Chain
 
-
+This also is a interface class.
 
 ## Request
 
