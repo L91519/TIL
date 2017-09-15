@@ -88,6 +88,5 @@ Retrofit.Builder builder = new Retrofit.Builder().baseUrl().addConvertedFactory(
 
 # Reference
 
-https://square.github.io/retrofit/2.x/retrofit/index.html?retrofit2/http/Path.html
-
-https://github.com/fs-opensource/android-retrofit-video
++ https://square.github.io/retrofit/2.x/retrofit/index.html?retrofit2/http/Path.html
++ https://github.com/fs-opensource/android-retrofit-video
