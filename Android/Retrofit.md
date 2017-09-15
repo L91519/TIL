@@ -14,8 +14,9 @@ I really didn't wanted to know more about Retrofit but I had to if I wanted to m
 + Http connection must be systemetically handled about whether network connection to server is on or not, and this open source handles this problem.
 
 
-
 Before using this method, INTERNET permissino in manifest should be written.
+
+And another important thing about retrofit is that it depends on many other libraries. Such as GSon and OkHttp3. So for you to understand all the method, it's better for you to know all of them... (At least for me Retrofit depending on other libraries made many difficulties.)
 
 ## Package retrofit2
 
