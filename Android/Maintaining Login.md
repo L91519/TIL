@@ -19,6 +19,10 @@ Mechanism that server keeps data from client .
 + Persistend Cookie : Though browser is turned off data being saved but when the limit is over data deleted.
 + Seesion Cookie : Saved in cash, and deleted when server is expired.
 
+
+
+
+
 So the difference between cookie and session is that sessino saves a data from server and cookie saves data from client.
 
 ## Procedure of keeping cookie session
@@ -27,10 +31,6 @@ So the difference between cookie and session is that sessino saves a data from s
 2. Save recieved cookie data in SharedPreferences.
 3. For every requests that is being held after, bring cookie from SharedPreference and add that data to header.
    (I don't actually understand if sending header which contains cookie data is necessary for all requests.)
-
-**Details**
-
-
 
 ## Reference
 
