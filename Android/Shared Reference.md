@@ -30,6 +30,32 @@ And because of these reasons, data such as user's id or passwords are inserted i
 
    With this Interface, save a data with HashMap type because SharedReference itself saves a data which is structured in key&value way.
 
+## Package SharedReference
+
+### getStringSet
+
+```java
+Set<String> getStringSet (String key, Set<String> defValues)
+```
+
+Method that searches Set\<String> from preference.
+
+key : Name of the preference to search.
+
+defValues : Value to return when preference doesn't exist.
+
+## Package SharedReference.Editor
+
+### putStringSet
+
+```java
+SharedReference.Editor putString(String key, Set<String> values)
+```
+
+key : Name of the preferency to edit.
+
+values : New value of the preference.
+
 ## Reference
 
 + Android developer
