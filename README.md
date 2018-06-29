@@ -1,6 +1,6 @@
 # Today I learned
 
-Everythin I learned that day
+❤️💜💛💚💙 Everything I learned that day 💙💚💛💜❤️ 
 
 # Form
 
@@ -11,5 +11,10 @@ This will be written in marked down form.
 # Contents
 
 + Android
++ Git
++ C
++ Languages
+  Introduction of launguages will be written.
 + Etcetera
+  Anything that is now included in the contents above will  be written.
 
