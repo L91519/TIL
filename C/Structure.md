@@ -5,6 +5,7 @@
 1. 구조체란?
 2. 구조체의 선언과 정의
 3. 구조체 배열의 정의
+4. 구조체 동적할당
 
 ### 1. 구조체란?
 
@@ -77,5 +78,37 @@ result : [Error] incompatible types in assignment of 'const char [14]' to 'char 
 
 ___
 
-### 구조체 배열의 정의
+### 3. 구조체 배열의 정의
+
+*stuct를 선언했을 때 typedef 예약어를 사용했다고 가정하고 작성했습니다.*
+
+구조체 배열 변수를 선언할 때는	다른 변수를 선언 할 때와 동일하며 초기화 역시도 동일한 방법으로 초기화 할 수 있습니다. 
+
+### 4. 구조체 동적할당
+
+___
+
+**Q2. ** 화살표(->) 연산자란? 
+
+```c
+typedef struct USERDATA
+{
+    int nAge;
+};
+
+int main(Void)
+{
+    USERDATA *pUser = NULL;
+    pUser = (USERDATA*) malloc (sizeof(USERDATA));
+    pUser -> nAge = 10;
+    
+    printf("%d살", pUser -> nAge);
+}
+```
+
+result : 10살
+
+**A2. ** 포인터로 구조체에 접근할 수 있는 가장 일반적인 방법입니다. 
+
+___
 
