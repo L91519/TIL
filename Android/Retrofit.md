@@ -101,6 +101,8 @@ fun funName(@Path("param1" param1: String, @Query("param2") param2: String): Cal
 
 
 
+Create this Service as object so that we can use singleton design pattern.
+
 # Reference
 
 + https://square.github.io/retrofit/2.x/retrofit/index.html?retrofit2/http/Path.html
