@@ -15,3 +15,8 @@ Data Binding Library helps user to bind UI in xml files.
 
 View receiveing data from view model. Usually, view calls view model.
 
+### Error 
+
++ If we use multi line to use data binding library syntex in xml file, error occures
+  
+
