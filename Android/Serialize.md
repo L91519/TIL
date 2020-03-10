@@ -13,3 +13,15 @@ And an error occured because that certain class wasn't serialized and when a cla
 SuppressWarnings("serial");
 
 + Actually when we use that serializable, we need serialVersionUID but android doesn't support this. So instead of serialVersionUID, we use annotation.
+
+## Procedure
+
+```kotlin
+//add Serialized Extra
+val intent = Intent(context, ActivityName::class.java)
+intent.putExtra("key", serializedObject)
+
+//get Serialized Extra
+this.intent.getSerializableExtra("key") as SerializedObject
+```
+
