@@ -1,8 +1,6 @@
-# MVVP
-
 ### Model
 
-Mdoel handles all datas that application uses.
+Model handles all datas that application uses.
 
 #### Model Example
 
@@ -70,3 +68,6 @@ class PresenterEx(val view: ViewEx): ContractEx.Presenter{
 }
 ```
 
+## MVVM
+
+Model View ViewModel
