@@ -14,9 +14,8 @@ Some might be written in English. But many of them will be written in Korean.
 
 + Android
 + Git
-+ C
-+ Languages
-  → Introduction of launguages will be written.
++ Kotlin
++Java
 + Etcetera
   → Anything that is not included in the contents above will  be written.
-
+  → Such as useful libraries, plugin, ways of launching, and etc
