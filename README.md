@@ -1,6 +1,5 @@
 # Today I learned
 
-❤️ 💜 🖤 💛 💚 💙  Everything I learned that day 💙 💚 💛 🖤 💜 ❤️ 
 
 # Form
 
