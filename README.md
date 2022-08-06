@@ -1,21 +1,3 @@
-# Today I learned
+# Deprecated
 
-❤️ 💜 🖤 💛 💚 💙  Everything I learned that day 💙 💚 💛 🖤 💜 ❤️ 
-
-# Form
-
-In my TIL, everything I learned that day will be written.
-
-This will be written in marked down form.
-
-Some might be written in English. But many of them will be written in Korean.
-
-# Contents
-
-+ Android
-+ Git
-+ Kotlin
-+Java
-+ Etcetera
-  → Anything that is not included in the contents above will  be written.
-  → Such as useful libraries, plugin, ways of launching, and etc
+노션에서 TIL 작성하고 있습니다! https://www.notion.so/gohsoom/61418cb9b4064935b8a5ebd8fb0b599a 
